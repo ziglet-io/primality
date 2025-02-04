@@ -6,7 +6,7 @@ authors = ["Jeff Hohenstein <jeffrey.hohenstein@gmail.com>"]
 description = "Implementation of primality tests for multi-precision numbers using crypto-bigint"
 homepage = "https://github.com/saltatory/primality"
 repository = "https://github.com/saltatory/primality"
-license = "GPL-3.0-only"
+license = "BUSL-1.1"
 
 [dependencies]
 crypto-bigint = "0.6.0"
