@@ -1,3 +1,7 @@
+// Copyright (c) Jeffrey Hohenstein <jeffrey.hohenstein@gmail.com>
+//
+// All rights reserved.
+
 use crate::miller_rabin::is_composite;
 use crypto_bigint::rand_core::OsRng;
 use crypto_bigint::{Bounded, ConstZero, Uint};

@@ -1,3 +1,7 @@
+// Copyright (c) Jeffrey Hohenstein <jeffrey.hohenstein@gmail.com>
+//
+// All rights reserved.
+
 use crypto_bigint::modular::MontyForm;
 use crypto_bigint::modular::MontyParams;
 use crypto_bigint::rand_core::RngCore;
