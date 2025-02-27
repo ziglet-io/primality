@@ -1,8 +1,8 @@
 [package]
-name = "primality"
+name = "ziglet-primality"
 description = "Implementation of primality tests for multi-precision numbers using crypto-bigint"
-homepage = "https://github.com/saltatory/primality"
-repository = "https://github.com/saltatory/primality"
+homepage = "https://github.com/ziglet-io/primality"
+repository = "https://github.com/ziglet-io/primality"
 readme = "README.md"
 
 version.workspace = true

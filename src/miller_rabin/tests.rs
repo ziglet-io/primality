@@ -4,7 +4,7 @@
 
 use crate::miller_rabin::is_composite;
 use crypto_bigint::rand_core::OsRng;
-use crypto_bigint::{Bounded, ConstZero, Uint};
+use crypto_bigint::{Uint};
 use std::ops::Not;
 
 use super::generate_probable_prime;
@@ -14,7 +14,7 @@ const T: u32 = 10;
 #[test]
 fn generate_probable_prime_1024() {
     let mut rng = OsRng;
-    let p = generate_probable_prime::<16, 32, OsRng>(1024u32, T, &mut rng);
+    let _p = generate_probable_prime::<16, 32, OsRng>(1024u32, T, &mut rng);
 }
 
 #[test]
