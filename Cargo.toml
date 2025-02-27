@@ -1,18 +1,20 @@
 [package]
-name = "crypto-primality"
+name = "primality"
 description = "Implementation of primality tests for multi-precision numbers using crypto-bigint"
 homepage = "https://github.com/saltatory/primality"
 repository = "https://github.com/saltatory/primality"
-version = "0.1.1"
-edition = "2021"
-authors = ["Jeffrey Hohenstein <jeffrey.hohenstein@gmail.com>"]
-license = "BUSL-1.1"
+readme = "README.md"
+
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license-file.workspace = true
 
 [dependencies]
-crypto-bigint = "0.6.0"
+crypto-bigint.workspace = true
 
 [dev-dependencies]
-criterion = "0.5.1"
+criterion.workspace = true
 
 [[bench]]
 name = "bench"
