@@ -1,25 +1,22 @@
 [package]
 name = "crypto-primality"
-version = "0.1.0"
-edition = "2021"
-authors = ["Jeff Hohenstein <jeffrey.hohenstein@gmail.com>"]
 description = "Implementation of primality tests for multi-precision numbers using crypto-bigint"
 homepage = "https://github.com/saltatory/primality"
 repository = "https://github.com/saltatory/primality"
-license = "BUSL-1.1"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
 
 [dependencies]
-crypto-bigint = "0.6.0"
+crypto-bigint = {workspace = true}
 
 [dev-dependencies]
-criterion = "0.5.1"
+criterion = {workspace = true}
 
 [[bench]]
 name = "bench"
 harness = false
-
-[profile.bench]
-debug = false
 
 # Add rendering of LaTeX math symbols in documentation
 #
