@@ -5,16 +5,16 @@ homepage = "https://github.com/ziglet-io/primality"
 repository = "https://github.com/ziglet-io/primality"
 readme = "README.md"
 
-version.workspace = true
-edition.workspace = true
-authors.workspace = true
-license-file.workspace = true
+version = "0.1.0"
+edition = "2021"
+authors = ["Jeffrey Hohenstein <jeffrey.hohenstein@gmail.com>"]
+license = "MIT"
 
 [dependencies]
-crypto-bigint.workspace = true
+crypto-bigint = {version = "0.6.0"}
 
 [dev-dependencies]
-criterion.workspace = true
+criterion = {version = "0.5.1", features = ["async_tokio", "async"]}
 
 [[bench]]
 name = "bench"
