@@ -5,7 +5,7 @@ homepage = "https://github.com/ziglet-io/primality"
 repository = "https://github.com/ziglet-io/primality"
 readme = "README.md"
 
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Jeffrey Hohenstein <jeffrey.hohenstein@gmail.com>"]
 license = "MIT"

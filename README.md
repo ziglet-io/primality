@@ -6,8 +6,7 @@ An implementation of algorithms for prime generation and primality testing:
 
 # Licensing
 
-* [BUSL-1.1](./LICENSE.md)
-* Commercial licensing is available
+* MIT
 
 # Copyright
 
